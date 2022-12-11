@@ -2,7 +2,7 @@ task:
   name: "Scarlet-X-Kernel-Builder"
   timeout_in: 2h
   container:
-      image: ubuntu-18.04
+      image: ubuntu-latest
       cpu: 8
       memory: 32G
 
