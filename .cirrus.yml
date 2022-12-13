@@ -2,7 +2,7 @@ task:
   name: "Scarlet-X-Kernel-Builder"
   timeout_in: 2h
   container:
-      image: cirrusci/ubuntu-latest
+      image: ubuntu:latest
       cpu: 8
       memory: 32G
 
