@@ -2,7 +2,7 @@
 
 KERNEL_DIR=$(pwd)
 
-sudo apt install -y build-essential uuid-dev iasl git nasm python3-distutils gcc-aarch64-linux-gnu abootimg bspatch p7zip-full zip python-pip
+sudo apt install -y build-essential uuid-dev iasl git nasm python3-distutils gcc-aarch64-linux-gnu abootimg bspatch p7zip-full zip python3-pip wget unzip
 sudo pip install uefi_firmware
 git clone https://github.com/tianocore/edk2.git --recursive
 git clone https://github.com/tianocore/edk2-platforms.git
